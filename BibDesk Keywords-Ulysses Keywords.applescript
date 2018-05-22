@@ -32,7 +32,7 @@ tell application "BibDesk"
 				set sheetID to last text item of (theURL as string)
 				set AppleScript's text item delimiters to myTID
 				
-				-- ulysses://x-callback-url/open?id=i_5l3Vm7HiXCIJ3BNdX62Q
+				-- 
 				
 				set {myTID, AppleScript's text item delimiters} to {AppleScript's text item delimiters, {", "}}
 				repeat with k in text items of currentKeywords
